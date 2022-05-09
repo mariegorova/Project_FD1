@@ -1,0 +1,449 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .menu {
+    position: fixed; 
+    right: 10px;
+    top: 20%; 
+    width: 10%;
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 50%;
+    margin: auto;
+  }
+
+ .online_school{
+    
+ font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+
+color: #1E212C;
+
+width: 80%;
+margin: auto;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-bottom: 30px;
+
+ }
+
+.about{ font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #1E212C;
+
+width: 30%;
+margin: auto;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 30px;
+}
+
+.first_main_block {
+    height: 280px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .girl {
+    width: 28%;
+    height: 280px;
+  
+    margin-right: 5px;
+  }
+  
+  .why {
+    width: 28%;
+    height: 280px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  
+  
+  .information {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 160%;
+    color: #424551;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .number {
+      color: red;
+      font-size: 30px;
+
+  }
+
+.direction {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #1E212C;
+    
+    width: 40%;
+    margin: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 30px;
+}
+
+
+.teach {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+
+color: #1E212C;
+
+width: 60%;
+margin: auto;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.horisontal {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 180px;
+  }
+  
+  .little_card {
+    background: #ffffff;
+  
+    border: 1px solid #e5e8ed;
+    box-sizing: border-box;
+  
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
+      0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+      0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+      0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    width: 35%;
+    height: 160px;
+    align-items: center;
+  
+    margin-bottom: 2%;
+    margin-left: 5px;
+    display: flex;
+  }
+  
+  .teacher_photo {
+    width: 40%;
+    height: 100%;
+  }
+  
+  .card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .badge {
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+  
+    color: #ffffff;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    width: 40%;
+  
+    text-align: center;
+  }
+  
+  .ultimate {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+  
+    color: #1e212c;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 10px;
+  }
+  
+  .price {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+  
+    color: #ff4242;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+    margin-left: 20px;
+  }
+
+  .new_program {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+ width: 100%;
+ margin: auto;
+    
+    text-align: center;
+  
+    
+    color: #424551;
+  }
+
+  .best_teachers {
+   
+    width: 100%;
+    height: 980px;
+  }
+  
+  .best {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+  }
+  
+  .tutors {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+  
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  
+    color: #1e212c;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  .team {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+  
+    text-align: center;
+  
+    color: #1e212c;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+  
+  .best_person {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+  
+    text-align: center;
+  
+    color: #424551;
+  }
+  
+  .name1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+  
+    text-align: center;
+  
+    color: #787a80;
+  }
+
+  .heading2 {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+  }
+
+  .process {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+
+color: #1E212C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+width: 20%;
+margin: auto;
+  }
+
+  .how_do {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+
+color: #1E212C;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+width: 40%;
+margin: auto;
+  }
+
+  .step {
+   
+width: 50%;
+margin: auto;
+margin-top: 20px;
+
+  }
+
+.one {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 150%;
+
+color: #787A80;
+
+}
+
+.two {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+
+color: #1E212C;
+
+}
+
+.three {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+
+color: #787A80;
+}
+
+.last {
+  width: 100%;
+  height: 30px;
+  background: white;
+}
+
+a:hover {
+  text-transform: uppercase;
+}
