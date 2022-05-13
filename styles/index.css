@@ -4,13 +4,13 @@ body {
 }
 .header_box {
   width: 100%;
-  
+
   background-color: rgba(243, 141, 83, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-   align-items: center;
-   height: fit-content;
+  align-items: center;
+  height: fit-content;
 }
 
 .navbar {
@@ -79,7 +79,6 @@ a {
 a:hover {
   color: #f75e05;
   text-transform: uppercase;
-  
 }
 
 .statistics {
@@ -100,7 +99,7 @@ a:hover {
 }
 
 .statistics_number {
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 4vw;
 }
 
@@ -125,16 +124,37 @@ a:hover {
 
 .girl {
   width: 28%;
- 
-
 }
 
 .why {
   width: 28%;
-
   text-align: center;
-  margin-left: 5px;
 }
+
+@media (max-width: 390px) {
+  .first_main_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 390px) {
+  .why {
+    width: 100%;
+    text-align: center;
+  }}
+
+  @media (max-width: 390px) {
+  .girl {
+    width: 100%;
+  }}
+  
+ 
+ 
+
 
 .who_we_are {
   font-family: "Lato";
@@ -254,7 +274,7 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .little_card {
@@ -515,7 +535,7 @@ ul {
   align-items: center;
   width: 50%;
   padding: 15px 0;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: 0;
 }
 
@@ -641,19 +661,17 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  
 
   text-align: center;
 
   color: #1e212c;
-width: 100%;
-margin: auto;
+  width: 100%;
+  margin: auto;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 8px 0px;
 }
-
 
 .best_person {
   display: flex;
@@ -813,7 +831,6 @@ margin: auto;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  
 }
 
 .anything {
@@ -894,7 +911,7 @@ margin: auto;
   display: flex;
   align-items: center;
   padding: 10px 0;
-  
+
   flex-direction: column;
 }
 
@@ -905,9 +922,9 @@ margin: auto;
   font-size: 12px;
   line-height: 150%;
   color: #ffffff;
-  
+
   opacity: 0.6;
-  width: fit-content;
+ 
 }
 
 .socials {
