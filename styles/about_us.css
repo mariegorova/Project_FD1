@@ -4,9 +4,10 @@ body {
   }
 
   .menu {
-    position: fixed; 
+  
     right: 10px;
-    top: 20%; 
+   margin: auto;
+   margin-bottom: 20px;
     width: 10%;
     text-align: center;
     font-family: "Lato";
@@ -86,7 +87,8 @@ margin-top: 30px;
   .girl {
     width: 28%;
     height: 280px;
-  
+    
+   
     margin-right: 5px;
   }
   
@@ -104,7 +106,7 @@ margin-top: 30px;
     font-style: normal;
     font-weight: 900;
     font-size: 25px;
-    line-height: 160%;
+    line-height: 150%;
     color: #424551;
   }
 
@@ -161,11 +163,18 @@ flex-grow: 0;
 }
 
 .horisontal {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    height: 180px;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 10px;
   }
+
+  .mentor_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
   
   .little_card {
     background: #ffffff;
@@ -187,10 +196,6 @@ flex-grow: 0;
     display: flex;
   }
   
-  .teacher_photo {
-    width: 40%;
-    height: 100%;
-  }
   
   .card_content {
     display: flex;
