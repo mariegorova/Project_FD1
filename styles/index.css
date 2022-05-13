@@ -4,7 +4,7 @@ body {
 }
 .header_box {
   width: 100%;
-  height: 600px;
+  
   background-color: rgba(243, 141, 83, 0.5);
   display: flex;
   flex-direction: column;
@@ -84,11 +84,11 @@ a:hover {
 
 .statistics {
   display: flex;
-  justify-content: space-around;
+  align-content: flex-end;
   text-align: center;
   width: 100%;
-  height: 60px;
   align-items: baseline;
+  justify-content: space-around;
 }
 
 .statistics_little {
@@ -127,7 +127,6 @@ a:hover {
   width: 28%;
   height: 280px;
 
-  margin-right: 5px;
 }
 
 .why {
@@ -757,6 +756,7 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
+  height: fit-content;
 }
 
 .review_content {
