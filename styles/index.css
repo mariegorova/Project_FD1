@@ -639,19 +639,21 @@ ul {
 .team {
   font-family: "Lato";
   font-style: normal;
-  font-weight: 900;
-  font-size: 46px;
-  line-height: 130%;
+  font-weight: 700;
+  font-size: 30px;
+  
 
   text-align: center;
 
   color: #1e212c;
-
+width: 100%;
+margin: auto;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 8px 0px;
 }
+
 
 .best_person {
   display: flex;
