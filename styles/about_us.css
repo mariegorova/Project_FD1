@@ -45,7 +45,7 @@ line-height: 130%;
 
 color: #1E212C;
 
-width: 80%;
+
 margin: auto;
 flex: none;
 order: 1;
@@ -66,7 +66,7 @@ text-transform: uppercase;
 
 color: #1E212C;
 
-width: 30%;
+
 margin: auto;
 flex: none;
 order: 0;
@@ -87,12 +87,11 @@ margin-top: 30px;
   .girl {
     width: 28%;
   
-    margin-right: 5px;
   }
   
   .why {
     width: 28%;
-    height: 280px;
+    
     text-align: center;
     margin-left: 5px;
   }
@@ -135,7 +134,7 @@ margin-top: 30px;
     
     color: #1E212C;
     
-    width: 40%;
+    
     margin: auto;
     flex: none;
     order: 0;
@@ -153,7 +152,7 @@ line-height: 130%;
 
 color: #1E212C;
 
-width: 60%;
+
 margin: auto;
 flex: none;
 order: 1;
@@ -378,7 +377,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 
-width: 20%;
+
 margin: auto;
   }
 
@@ -397,7 +396,7 @@ order: 1;
 flex-grow: 0;
 
 
-width: 40%;
+
 margin: auto;
   }
 
